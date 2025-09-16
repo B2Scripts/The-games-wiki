@@ -16,7 +16,15 @@ body {
 .header a {
   color: white;
   text-decoration: none;
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
   font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
   padding: 5px 10px;
   border-radius: 4px; 
   transition: background 0.2s ease, color 0.2s ease;

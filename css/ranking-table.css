@@ -1,0 +1,22 @@
+.table-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+.ranking-table{
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 1000px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.ranking-table th, .ranking-table td{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-weight: 600;
+    
+}
